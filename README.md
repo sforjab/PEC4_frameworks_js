@@ -50,11 +50,13 @@ Esta actividad nos pedía hacer uso en el proyecto 'ecommerce' de dos tipos de d
 
 Se nos pide crear en 'PEC4_Ej_Teor' un fichero llamado 'EC4_Ej6_respuestas_teoria.md', donde hemos respondido varias preguntas sobre los componentes: encapsulación de estilos, mecanismo de detección de cambios, etc.
 
+***
+
 ***## **Ejercicio 7 - Componentes en nuestro proyecto**
 
-Por último, se nos indicaban varios requisito más que era necesario añadir a nuestro proyecto Angular 'ecommerce'. Estos requisitos, en resumen, han sido:
+Por último, se nos indicaban varios requisitos que había que añadir a nuestro proyecto Angular 'ecommerce'. Estos requisitos, en resumen, han sido:
 
-- Crear un nuevo componente 'article-list', cuya plantilla utiliza ladirectiva estructural 'ngFor' para crear un 'article-item' por cada uno de los tres artículos existentes.
+- Crear un nuevo componente 'article-list', cuya plantilla utiliza la directiva estructural 'ngFor' para crear un 'article-item' por cada uno de los tres artículos existentes.
 - Utilizar templates y estilos en línea para 'article-item'.
 - Modificar 'article-item' para recibir como entrada un 'Article' y para que emita hacia el padre un objeto 'ARticleQuantityChange' (artículo y cantidad de unidades seleccionadas).
 - Modificar la lógica de decrementar/incrementar del 'article-item' para añadirla a 'article-list' y utilizar un 'id' para encontrar un artículo y cambiar su cantidad.
